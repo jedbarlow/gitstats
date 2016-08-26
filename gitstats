@@ -1293,6 +1293,7 @@ plot 'files_by_date.dat' using 1:2 w steps
 		f.write(GNUPLOT_COMMON)
 		f.write(
 """
+set terminal png transparent size 640,480
 set output 'lines_of_code.png'
 unset key
 set yrange [0:]
